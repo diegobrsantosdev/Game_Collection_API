@@ -42,13 +42,15 @@ Game
 │   └── Position (ordering field in the join table)
 The project uses native SQL for optimized ordering logic.
 
-📫 API Endpoints (Examples)
+API Endpoints (Examples)
+
 Method	Endpoint	Description
 GET	/games	Get all games (basic info)
 GET	/games/{id}	Get full details of a game
 GET	/lists	Get all game lists
 GET	/lists/{listId}/games	Get games from a specific list
 POST	/lists/{listId}/replace	Change the position of a game in list
+
 
 ________________________________________
 
