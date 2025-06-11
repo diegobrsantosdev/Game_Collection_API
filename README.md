@@ -37,7 +37,6 @@ This is a backend RESTful API developed with **Java Spring Boot** and **PostgreS
 - `GameList`: custom list of games (e.g., "My Favorites", "To Play")
 - Relation: `Game` ↔ `GameList` via linking table `belonging`
 
-```plaintext
 Game
 │
 ├── GameList
@@ -55,37 +54,37 @@ POST	/lists/{listId}/replace	Change the position of a game in list
 ________________________________________
 
 🧪 Postman Integration
-•	All routes have been tested using Postman
-•	The API supports common operations and uses meaningful HTTP responses
-•	You can import Postman collections or use curl to test endpoints
+All routes have been tested using Postman
+The API supports common operations and uses meaningful HTTP responses
+You can import Postman collections or use curl to test endpoints
 ________________________________________
 
 ▶️ Running the Project Locally
-1.	Clone the repository:
+Clone the repository:
 git clone https://github.com/SEU_USUARIO/dslist.git
 cd dslist
 
-2.	Create the database in PostgreSQL:
+Create the database in PostgreSQL:
 CREATE DATABASE dslist;
 
-3.	Configure your database connection in application.properties:
+Configure your database connection in application.properties:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/dslist
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
-4.	Run the project:
+Run the project:
 ./mvnw spring-boot:run
 
 ________________________________________
 
 🚀 Future Improvements
-•	Add pagination and filtering
-•	Integrate with a front-end using React or Angular
-•	Add authentication with Spring Security (JWT)
-•	Add Swagger documentation
+Add pagination and filtering
+Integrate with a front-end using React or Angular
+Add authentication with Spring Security (JWT)
+Add Swagger documentation
 ________________________________________
-
 👨‍💻 Author
 Diego Melo Bezerra dos Santos
-🔗 github.com/diegobrsantosdev
+🔗 github.com/SEU_USUARIO
+
