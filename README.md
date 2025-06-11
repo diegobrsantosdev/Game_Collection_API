@@ -36,7 +36,6 @@ This is a backend RESTful API developed with **Java Spring Boot** and **PostgreS
 - `Game`: represents a game (title, genre, year, platform, etc.)
 - `GameList`: custom list of games (e.g., "My Favorites", "To Play")
 - Relation: `Game` ↔ `GameList` via linking table `belonging`
-
 Game
 │
 ├── GameList
@@ -61,7 +60,7 @@ ________________________________________
 
 ▶️ Running the Project Locally
 Clone the repository:
-git clone https://github.com/SEU_USUARIO/dslist.git
+git clone https://github.com/diegobrsantosdev/dslist.git
 cd dslist
 
 Create the database in PostgreSQL:
@@ -70,8 +69,8 @@ CREATE DATABASE dslist;
 Configure your database connection in application.properties:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/dslist
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+spring.datasource.username=your_user
+spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 Run the project:
 ./mvnw spring-boot:run
@@ -84,7 +83,7 @@ Integrate with a front-end using React or Angular
 Add authentication with Spring Security (JWT)
 Add Swagger documentation
 ________________________________________
+
 👨‍💻 Author
 Diego Melo Bezerra dos Santos
-🔗 github.com/SEU_USUARIO
-
+🔗 github.com/diegobrsantosdev
