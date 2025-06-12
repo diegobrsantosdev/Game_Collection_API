@@ -81,13 +81,13 @@ Run the project:
 
 ________________________________________
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 Add pagination and filtering
 Integrate with a front-end using React or Angular
 Add authentication with Spring Security (JWT)
 Add Swagger documentation
 ________________________________________
 
-👨‍💻 Author
+## 👨‍💻 Author
 Diego Melo Bezerra dos Santos
 🔗 github.com/diegobrsantosdev
