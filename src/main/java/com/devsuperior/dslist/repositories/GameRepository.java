@@ -20,7 +20,4 @@ public interface GameRepository extends JpaRepository<Game, Long> {
 				""")
 	List<GameMinProjection> searchByList(Long listId);
 
-
-
-	//Componente da camada de acesso a dados, vai consultar o banco
 }

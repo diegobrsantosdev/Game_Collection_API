@@ -14,5 +14,3 @@ public interface GameListRepository extends JpaRepository<GameList, Long> {
 	void updateBelongingPosition(Long listId, Long gameId, Integer newPosition);
 }
 
-
-//Componente da camada de acesso a dados, vai consultar o banco
