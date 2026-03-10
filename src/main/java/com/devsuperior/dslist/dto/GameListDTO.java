@@ -1,16 +1,16 @@
 package com.devsuperior.dslist.dto;
 import com.devsuperior.dslist.entities.GameList;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 
-@SuppressWarnings("unused")
+@Getter
+@NoArgsConstructor
 public class GameListDTO {
 	
 	private Long id;
 	private String name;
-	
-	public GameListDTO() {
-		
-	}
+
 
 	public GameListDTO(GameList entity) {
 		id = entity.getId();
@@ -18,13 +18,4 @@ public class GameListDTO {
 		
 	}
 
-	public Long getId() {
-		return id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	
 }

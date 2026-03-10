@@ -22,15 +22,13 @@ public class GameService {
 	public GameDTO findById(Long Id) {
 		Game result = gameRepository.findById(Id).get();
 	    return new GameDTO(result);
-		
 	}
 	
 	@Transactional(readOnly = true)
 	public List<GameMinDTO> findAll() {
 		List<Game> result = gameRepository.findAll();
 		return result.stream().map(x -> new GameMinDTO(x)).toList();
-		
-		 //retorna o list game em listgamemindto
+
 	}
 	
 	
@@ -38,12 +36,6 @@ public class GameService {
 	public List<GameMinDTO> findByList(Long listId) {
 		List<GameMinProjection> result = gameRepository.searchByList(listId);
 		return result.stream().map(x -> new GameMinDTO(x)).toList();
-		
-	
 	}
-
-	
 	
 }
-
-//Injetou componente service. Componente de serviço, registra as regras de negocio
