@@ -1,4 +1,4 @@
-# DSList – Game Collection API
+# Game Collection API
 
 Português | English
 
@@ -146,12 +146,13 @@ http://localhost:8080
 
 Diego Santos
 
-[E-mail](mailto:diegobrsantosdev@gmail.com)                                     [LinkedIn](https://www.linkedin.com/in/diegobrsantos/)
+[E-mail](mailto:diegobrsantosdev@gmail.com)                                        [LinkedIn](https://www.linkedin.com/in/diegobrsantos/)
 
 ---
 
-
 # English
+
+# Game Collection API
 
 A **RESTful API** built with **Java and Spring Boot** to manage and organize a personal video game collection.
 
@@ -294,4 +295,4 @@ Access API: http://localhost:8080
 
 Diego Santos
 
-[E-mail](mailto:diegobrsantosdev@gmail.com)                                     [LinkedIn](https://www.linkedin.com/in/diegobrsantos/)
+[E-mail](mailto:diegobrsantosdev@gmail.com)                                         [LinkedIn](https://www.linkedin.com/in/diegobrsantos/)
