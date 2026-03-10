@@ -2,6 +2,7 @@ package com.devsuperior.dslist.services;
 
 import java.util.List;
 
+import com.devsuperior.dslist.exceptions.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,8 +21,9 @@ public class GameService {
 	private final GameRepository gameRepository;
 	
 	@Transactional(readOnly = true)
-	public GameDTO findById(Long Id) {
-		Game result = gameRepository.findById(Id).get();
+	public GameDTO findById(Long id) {
+		Game result = gameRepository.findById(id)
+				.orElseThrow(() -> new ResourceNotFoundException("Game not found with id " + id));
 	    return new GameDTO(result);
 	}
 	
