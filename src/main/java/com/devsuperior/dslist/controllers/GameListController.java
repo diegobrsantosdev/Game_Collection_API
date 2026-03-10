@@ -45,4 +45,3 @@ public class GameListController {
 		gameListService.move(listId, body.getSourceIndex(), body.getDestinationIndex());
 	}
 }
-//front chama o backend pelo controlador

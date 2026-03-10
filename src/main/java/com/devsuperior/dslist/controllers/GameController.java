@@ -34,4 +34,3 @@ public class GameController {
 	}
 
 }
-//front chama o backend pelo controlador
